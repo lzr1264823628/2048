@@ -1,0 +1,26 @@
+.score-contain {
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+
+.card {
+  transform-origin:center;
+}
+
+.score-contain:hover {
+  transform: rotateY(180deg);
+}
+
+@media (min-width: 577px) {
+  .card.back {
+    transform: rotateY(180deg) translateY(-100%);
+    margin-bottom: -20%;
+  }
+}
+@media (max-width: 576px) {
+  .card.back {
+    transform: rotateY(180deg) translateY(-100%);
+    margin-bottom: -45%;
+  }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>2048</title>
+</head>
+
+<body>
+<div class="container main">
+  <div class="row">
+    <div class="col offset-xl-0 m-auto">
+      <h1 class="text-center font-weight-bolder">2048</h1>
+    </div>
+    <div class="col score-contain">
+      <div class="card">
+        <div class="card-body" style="padding: 0;">
+          <h5 class="text-center card-title">SCORE</h5>
+          <h6 class="text-center text-muted card-subtitle mb-2 score">0</h6>
+        </div>
+      </div>
+      <div class="card back">
+        <div class="card-body" style="padding: 0;">
+          <h5 class="text-center card-title">BEST</h5>
+          <h6 class="text-center text-muted card-subtitle mb-2 bestScore">0</h6>
+        </div>
+      </div>
+    </div>
+<!--    <div class="col">-->
+<!--      <div class="card align-self-end" style="margin: 10px;">-->
+<!--        <div class="card-body" style="padding: 0;">-->
+<!--          <h5 class="text-center card-title">SCORE</h5>-->
+<!--          <h6 class="text-center text-muted card-subtitle mb-2 score">0</h6>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+  </div>
+  <div class="row">
+    <div class="col d-inline-flex" style="margin-bottom: 10px">
+      <p class="text-left font-italic m-auto" style="width: 100%;">try to get <strong>2048!</strong></p>
+      <button class="btn btn-sm btn-new-game m-auto border rounded" type="button">new</button>
+    </div>
+  </div>
+  <div class="row grid-area">
+    <div class="col">
+      <div class="row cell-contain">
+        <div class="col cell"></div>
+        <div class="col cell"></div>
+        <div class="col cell"></div>
+        <div class="col cell"></div>
+      </div>
+      <div class="row cell-contain">
+        <div class="col cell"></div>
+        <div class="col cell"></div>
+        <div class="col cell"></div>
+        <div class="col cell"></div>
+      </div>
+      <div class="row cell-contain">
+        <div class="col cell"></div>
+        <div class="col cell"></div>
+        <div class="col cell"></div>
+        <div class="col cell"></div>
+      </div>
+      <div class="row cell-contain">
+        <div class="col cell"></div>
+        <div class="col cell"></div>
+        <div class="col cell"></div>
+        <div class="col cell"></div>
+      </div>
+      <div class="number-contain">
+      </div>
+      <div class="cover-contain">
+        <div class="cover"></div>
+        <div class="cover-btn-group">
+          <p class="font-weight-bold text-uppercase text-center">you win</p>
+          <button class="btn btn-sm m-auto font-italic">try again</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="bundle.js"></script></body>
+
+</html>

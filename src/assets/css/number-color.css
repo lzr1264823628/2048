@@ -1,0 +1,81 @@
+.number-1 {
+  background-color: #f2c68c;
+}
+
+.number-2 {
+  background-color: #eda04f;
+}
+
+.number-4 {
+  background-color: #e87511;
+}
+
+.number-8 {
+  background-color: #dd5900;
+}
+
+.number-16 {
+  background-color: #933311;
+}
+
+.number-32 {
+  background-color: #6d3321;
+}
+
+.number-64 {
+  background-color: #a50544;
+}
+
+.number-128 {
+  background-color: #772d6b;
+}
+
+.number-256 {
+  background-color: #b7008e;
+}
+
+.number-512 {
+  background-color: #e0219e;
+  animation: flash-512 1s ease-in-out;
+}
+@keyframes flash-512 {
+  0%{
+    box-shadow: #e0219e 0 0;
+  }
+  50%{
+    box-shadow: #e0219e 0 5px;
+  }
+  100%{
+    box-shadow: #e0219e 0 0;
+  }
+}
+.number-1024 {
+  background-color: #fc70ba;
+  animation: flash-1024 1.5s ease-in-out;
+}
+@keyframes flash-1024 {
+  0%{
+    box-shadow: #fc70ba 0 0;
+  }
+  50%{
+    box-shadow: #fc70ba 0 5px;
+  }
+  100%{
+    box-shadow: #fc70ba 0 0;
+  }
+}
+.number-2048 {
+  background-color: #f993c4;
+  animation: flash-2048 2s ease-in-out;
+}
+@keyframes flash-2048 {
+  0%{
+    box-shadow: #f993c4 0 0;
+  }
+  50%{
+    box-shadow: #f993c4 0 10px;
+  }
+  100%{
+    box-shadow: #f993c4 0 0;
+  }
+}
